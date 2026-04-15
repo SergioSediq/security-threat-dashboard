@@ -1,0 +1,172 @@
+:root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #0b1020;
+  color: #e8ecff;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.65rem;
+  letter-spacing: -0.02em;
+}
+.sub {
+  color: #8b93b8;
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+}
+.muted {
+  color: #6b7399;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.tile {
+  background: #141b34;
+  border: 1px solid #243056;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.tile .n {
+  font-size: 1.75rem;
+  font-weight: 650;
+}
+.tile.critical .n {
+  color: #ff6b6b;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid #243056;
+}
+.chip {
+  display: inline-block;
+  background: #1e3a5f;
+  border-radius: 6px;
+  padding: 0.1rem 0.45rem;
+  margin-right: 0.35rem;
+  font-size: 0.8rem;
+}
+.sev {
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.sev-critical {
+  color: #ff6b6b;
+}
+.sev-high {
+  color: #ff9f7a;
+}
+.sev-medium {
+  color: #ffd56b;
+}
+.sev-low {
+  color: #9ad79a;
+}
+
+.error {
+  color: #ff8a8a;
+}
+code {
+  background: #141b34;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.88rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.tab {
+  background: #141b34;
+  border: 1px solid #243056;
+  border-radius: 8px;
+  color: #e8ecff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.45rem 0.85rem;
+}
+.tab.active {
+  border-color: #4c6fff;
+  color: #dbe4ff;
+}
+
+.toolbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.9rem;
+}
+.toolbar select {
+  background: #141b34;
+  border: 1px solid #243056;
+  border-radius: 8px;
+  color: #e8ecff;
+  padding: 0.35rem 0.5rem;
+}
+.export {
+  color: #9eb7ff;
+  font-size: 0.88rem;
+  margin-left: auto;
+}
+
+.osint {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.osint li {
+  border-bottom: 1px solid #243056;
+  padding: 0.85rem 0;
+}
+.osint a {
+  color: #c9d6ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.osint a:hover {
+  text-decoration: underline;
+}
+.tags {
+  margin-top: 0.35rem;
+}
+.pill {
+  background: #1e3a5f;
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin-right: 0.35rem;
+  padding: 0.1rem 0.45rem;
+}
