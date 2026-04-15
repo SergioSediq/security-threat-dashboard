@@ -1,21 +1,12 @@
-<div align="center">
+# Situation
 
-# 📊 Situation — analyst dashboard
+**Analyst dashboard**
 
-A **small full-stack app**: a JSON API plus a **React** UI for reviewing **fixture** threat rows (**CVE** IDs, severities, **MITRE** technique IDs) and a short **OSINT** list. Defaults stay **offline** so demos never depend on **NVD** rate limits or live keys.
+Situation is a small full-stack application. It exposes a JSON API and a React UI for reviewing fixture threat rows (CVE IDs, severities, MITRE technique IDs) and a short OSINT list. The stack runs offline by default so demos are not tied to NVD rate limits or live API keys.
 
 **Author:** [Sergio Sediq](https://github.com/SergioSediq) · [LinkedIn](https://www.linkedin.com/in/sedyagho) · [sediqsergio@gmail.com](mailto:sediqsergio@gmail.com)
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](./LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-
-📖 [Architecture](./docs/ARCHITECTURE.md) · 📄 [OpenAPI JSON](./backend/docs/openapi.json)
-
-</div>
+**Docs:** [Architecture](./docs/ARCHITECTURE.md) · [OpenAPI JSON](./backend/docs/openapi.json)
 
 ---
 
@@ -185,16 +176,6 @@ Responses include an **`x-request-id`** header from middleware. **`USE_MOCK_DATA
 
 ---
 
-## 🛠️ Built With
+## License
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
-
----
-
-## 📜 License
-
-**MIT** — see [LICENSE](./LICENSE).
+MIT. See [LICENSE](./LICENSE).
